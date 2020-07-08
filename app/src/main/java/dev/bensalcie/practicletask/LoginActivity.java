@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void loginUser(final String customerId, final String customerPin) {
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, MyConstants.BASE_URL,
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, MyConstants.BASE_URL+"customers/login",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
