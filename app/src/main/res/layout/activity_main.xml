@@ -16,6 +16,7 @@
         android:layout_marginRight="16dp"
         android:text="Logout"
         android:textSize="18sp"
+        android:onClick="logoutThisUser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
